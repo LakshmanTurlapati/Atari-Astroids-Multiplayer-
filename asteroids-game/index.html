@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asteroids Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div id="ui">
+            <div id="score">Score: 0</div>
+            <div id="lives">Lives: 3</div>
+            <div id="level">Wave: 1</div>
+        </div>
+        <div id="instructions">
+            <h3>Controls:</h3>
+            <p>Arrow Keys: Rotate</p>
+            <p>Up Arrow: Thrust</p>
+            <p>Space: Fire</p>
+            <p>Shift: Hyperspace</p>
+            <p>Enter: Start Game</p>
+        </div>
+        <div id="gameOverScreen" class="hidden">
+            <h2>Game Over</h2>
+            <p>Final Score: <span id="finalScore">0</span></p>
+            <p>Press Enter to Play Again</p>
+        </div>
+    </div>
+
+    <script src="js/physics.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/entities/entity.js"></script>
+    <script src="js/entities/ship.js"></script>
+    <script src="js/entities/asteroid.js"></script>
+    <script src="js/entities/bullet.js"></script>
+    <script src="js/entities/ufo.js"></script>
+    <script src="js/entities/particle.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
