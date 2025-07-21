@@ -6,7 +6,6 @@ A faithful recreation of the classic 1979 Atari Asteroids arcade game built with
 
 ![Asteroids Game Screenshot](snip.png)
 
-*Note: Add a screenshot by taking a picture of the game in action and saving it as `screenshot.png` in the root directory.*
 
 ## Features
 
