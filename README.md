@@ -2,6 +2,8 @@
 
 A faithful recreation of the classic 1979 Atari Asteroids arcade game built with HTML5 Canvas and vanilla JavaScript. Features authentic vector-style graphics, realistic physics, and retro sound effects.
 
+## [Live Demo - Play Here!](https://harmonious-caramel-3c3627.netlify.app)
+
 ## Screenshot
 
 ![Asteroids Game Screenshot](snip.png)
